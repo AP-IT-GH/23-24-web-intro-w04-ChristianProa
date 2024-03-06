@@ -8,21 +8,53 @@
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
+.col-4 {
+    color: blue;
+    font-weight: bold;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .col-sm-4 {
+    color: green;
+    font-weight: bold;
+  }
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .col-md-4 {
+        color: aqua;
+        font-weight: bold;
+    }
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        color: yellow;
+        font-weight: bold;
+    }
+}
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .col-xl-4 {
+        color: red;
+        font-weight: bold;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-
+    .kleur.xxl {
+        background-color: #cf04beb4;
+        font-weight: bold;
+    }
+    .col-xxl-4 {
+        color: white;
+        font-weight: bold;
+    }
+    
   
 }
